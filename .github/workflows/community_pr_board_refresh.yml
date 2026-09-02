@@ -42,7 +42,6 @@ jobs:
         with:
           sparse-checkout: |
             script/github-community-pr-board.py
-            script/github_helpers.py
           sparse-checkout-cone-mode: false
 
       - name: Set up Python
